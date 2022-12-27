@@ -764,8 +764,23 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 70px;
     background-color: #f8f8f8;
 }
+
 .footer__inner{
     padding-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__col--first{
+    width:40% ;
+
+}
+.footer__col--second{
+    width:29% ;
+
+}
+.footer__col--third{
+    width:22% ;
+
 }
 .footer__logo{
     margin-bottom: 30px;
@@ -809,6 +824,57 @@ h1,h2,h3,h4,h5,h6{
 }
 .footer__social-content a{
     text-decoration: none;
+}
+.footer__title{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #646464;
+    font-weight: 700;
+    margin: 30px 0;
+}
+/*BLOGS*/
+.blogs__item{
+    display: flex;
+    margin-bottom: 30px;
+    align-items:center ;
+}
+.blogs__content{
+    padding-left: 20px;
+}
+
+.blogs__title{
+    display: block;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333333;
+}
+.blogs__title:hover{
+    text-decoration: underline;
+}
+.blogs__data{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 300;
+    color: #999999;
+}
+/*INSTAGRAM*/
+.instagram{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+.instagram__item{
+    width: 32.33333%;
+    flex: 1 1 0;
+    border:2px solid #ffffff ;
+
+}
+.instagram__item img{
+    display: block;
 }
 /*SUBSCRIBE*/
 .subscribe{
@@ -856,4 +922,15 @@ h1,h2,h3,h4,h5,h6{
 .subscribe__input:focus{
     outline: 0;
     border-color:#95e1d3 ;
+}
+/*COPYRIGHT*/
+.copyright{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px 0;
+    text-align: center;
+    font-size: 14px;
+
+}
+.copyright span{
+    color: #f49f9f;
 }
